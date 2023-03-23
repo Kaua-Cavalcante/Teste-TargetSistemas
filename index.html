@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste Target</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Teste: Target Sistemas</h1>
+    </header>
+    <section>
+      <h2>Questão 1</h2>
+      <p>O resultado da soma é: <span id="resultado1"></span></p>
+      <button onclick="resultadoSoma()">Mostrar resultado</button>
+    </section>
+
+    <section>
+      <h2>Questão 2</h2>
+      <label>
+        Digite um número para verificar se pertence à sequência de Fibonacci:
+      </label>
+      <input type="number" id="numero" />
+
+      <button onclick="verificarFibonacci()">Verificar</button>
+
+      <p id="resultado2"></p>
+    </section>
+
+    <section>
+      <h2>Questão 3</h2>
+      <h3>Observe a sequência complete o próximo elemento:</h3>
+      <p>
+        <strong>a)</strong> A lógica é adicionar 2 ao número anterior para obter
+        o próximo número. Portanto, o próximo número na sequência seria 9.
+      </p>
+
+      <p>
+        <strong>b)</strong> A lógica é multiplicar cada número por 2 para obter
+        o próximo número. Portanto, o próximo número na sequência seria 128.
+      </p>
+
+      <p>
+        <strong>c)</strong> A lógica é adicionar 1 ao quadrado do número
+        anterior para obter o próximo número. Portanto, o próximo número na
+        sequência seria 49.
+      </p>
+
+      <p>
+        <strong>d)</strong> A lógica é adicionar 4 ao quadrado do número
+        anterior para obter o próximo número. Portanto, o próximo número na
+        sequência seria 100.
+      </p>
+
+      <p>
+        <strong>e)</strong> A lógica é adicionar os dois números anteriores para
+        obter o próximo número. Portanto, o próximo número na sequência seria
+        13.
+      </p>
+
+      <p>
+        <strong>f)</strong> A lógica é que todos os números citados começam com
+        "D". Logo o próximo número na sequência seria 200.
+      </p>
+    </section>
+
+    <section>
+      <h2>Questão 4</h2>
+      <p>Qual veículo estará mais próximo da cidade de Ribeirão Preto?</p>
+      <button onclick="calcularDistancia()">Mostrar resultado</button>
+      <p id="resultado3"></p>
+    </section>
+
+    <section>
+      <h2>Questão 5</h2>
+      <label for="frase">Digite uma frase:</label>
+      <input type="text" id="frase" />
+      <button onclick="inverter()">Inverter</button>
+      <p id="resultado4"></p>
+    </section>
+  </body>
+  <script src="./teste.js"></script>
+</html>
